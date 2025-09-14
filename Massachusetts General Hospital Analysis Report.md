@@ -6,7 +6,7 @@
 2. [Project Description](#project-description)
 3. [Project Aim](#project-aim)
 4. [About the Dataset](#about-the-dataset)
-5. [Importing the Dataset to Excel](#importing-the-dataset-to-excel)
+5. [Importing the Dataset to SQL](#importing-the-dataset-to-SQL)
 6. [Preparation of the Dataset: Cleaning and Transforming](#preparation-of-the-dataset-cleaning-and-transforming)
 7. [Data Modeling in Excel](#data-modeling-in-excel)
 8. [Data Analysis in Excel](#data-analysis-in-excel)
@@ -117,7 +117,11 @@ Data Types:
 * Date (Admission Dates, Report Date)
 * Categorical (Gender, Ethnicity, Encounter Type, Insurance)
 
+## **Importing the Dataset to SQL**
 
+The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate copy was created commencement of data cleaning process.
+
+## **Preparation of the Dataset: Cleaning and Transforming**
 
 
 
