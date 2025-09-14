@@ -161,6 +161,65 @@ The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate co
 - **Standardized Gender, Marital status and encounter_class columns**
 - **Standardized Name column by removing the numerical values embedded in the text**
 
+## **Data Modeling in Excel**
+
+- **Created a Fact Table Named Unicorn Dataset**  
+- **Created a Dimension Table Named Companies**  
+- **Added Data to the Model**  
+- **Built Relationships Between Tables**  
+
+## **Data Analysis in Excel**
+
+Key performance indicators (KPIs) analyzed:
+
+- **Average Return on Investment (ROI)**
+- **Average Years to Unicorn**
+- **Total Number of Unicorn Companies**
+- **Total Number of Investors**
+
+## **Data Visualization in Excel**
+Two dashboards were created: an **Overview Dashboard** and an **Insights Dashboard**.
+
+### **Overview Dashboard**
+- **KPI Cards**: Avg ROI, Avg Years to Unicorn, Total Unicorn Companies, Total Investors.
+- **Bar Chart**: Top 10 Investors in Unicorn Companies.
+- **Line Chart**: Time Taken to Reach Unicorn Status.
+- **Lollipop Chart**: Top 5 Unicorn Companies by ROI.
+- **Map**: Countries Producing the Most Unicorns.
+
+### **Insights Dashboard**
+- **Bar Chart**: Top Industries by ROI.
+- **Bar Chart**: Top Cities by ROI.
+- **Bar Chart**: Top 5 Investors.
+- **Bar Chart**: Average Years to Unicorn by Industry.
+- **Bar Chart**: Top 5 Industries by Investment.
+- **Bar Chart**: Top Cities with the Most Unicorns.
+- **Slicer**: Continent filter for dynamic analysis.
+
+- ### **View Dashboards**
+- [Overview Dashboard]([Unicorn Overview dashboard.png](https://github.com/Kaosarat10/Unicorn-Companies-Analysis/blob/main/Unicorn%20Overview%20dashboard.png))  
+- [Insights Dashboard]([Unicorn Insights dashboard.png](https://github.com/Kaosarat10/Unicorn-Companies-Analysis/blob/main/Unicorn%20Insights%20dahboard.png))
+  
+## **Insights from the Data Analysis**
+
+- **Industries with the Highest ROI**: Fintech, Mobile & Telecommunications, and Hardware lead in ROI performance.
+- **Industries with the Most Investment**: Fintech, Internet & Software Services, E-Commerce, and AI attract the highest funding.
+- **Top Investors**: Sequoia Capital China, Accel, Andreessen Horowitz, and Insight Partners are the most active investors.
+- **Top Unicorn Companies by ROI**: Zwift, Dunamu, Pilot.com, Bought By Many, Domestika, and DJI Innovations.
+- **Countries Producing the Most Unicorns**: United States (554), China (169), and India (65).
+- **Top Cities for Unicorns**: London, Shanghai, Beijing, New York, and San Francisco.
+- **Average Years to Unicorn**: The average time it takes for a company to reach unicorn status is 7.5 years.
+
+## **Recommendations from the Data Analysis**
+
+- **For Investors**: Focus on fintech, telecommunications, and AI startups, as they show high ROI potential.
+- **For Startups**: Companies should aim for strategic funding rounds, as unicorns typically achieve this status in 7.5 years.
+- **For Policymakers**: Supporting startups in the United States, China, and India could further boost unicorn formation.
+- **For Entrepreneurs**: Consider launching in cities like London, Shanghai, and San Francisco, which have thriving startup ecosystems.
+
+## **Conclusion**
+
+This project successfully analyzed unicorn companies, highlighting investment trends, high-performing industries, and key investor activities. The insights derived can help stakeholders make informed decisions in the startup ecosystem.
 
 
 
