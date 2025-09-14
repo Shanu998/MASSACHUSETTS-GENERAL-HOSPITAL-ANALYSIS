@@ -20,3 +20,7 @@
 ## **Introduction**
 
 This project focuses on analyzing operational, clinical, and financial data from Massachusetts Hospital using Structured Query Language (SQL). The objective is to discover insights into patient demographics, hospital encounters, insurance payments, procedure costs, and overall performance to drive data-driven decisions across departments and stakeholders.
+
+## **Project Description**
+
+Massachusetts Hospital operates in a dynamic healthcare environment where patient care, billing, insurance, and clinical performance intersect. This project uses a dataset exported from a hospital management system to visualize and analyze patient inflows, encounter types, procedure volumes, costs, and payer distributions.
