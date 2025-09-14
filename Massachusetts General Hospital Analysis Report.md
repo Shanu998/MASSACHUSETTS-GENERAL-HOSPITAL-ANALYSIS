@@ -32,18 +32,92 @@ The analysis covers five core areas:
 * Procedures
 * Insurance (Payers)
 
----
 
 ## 🎯 Project Aim
 
 The main objective of this project is to analyze Massachusetts Hospital's performance and answer key healthcare business questions:
 
 ✅ What are the key drivers of hospital cost and revenue?
+
 ✅ What patient demographics are most common, and how do they affect care delivery?
+
 ✅ How are hospital encounters distributed throughout the year?
+
 ✅ Which procedures are most frequent and expensive?
+
 ✅ What role do insurers play in covering the cost of care?
 
----
+## **About the Dataset**
+
+The dataset used for this project was extracted from the hospital’s information system and structured in an Excel-based reporting. It includes:
+
+1. Patients table containing 974 rows and 20 columns:
+- **Id** - Unique Identifier of the patient.
+- **BIRTHDATE** - The date (YYYY-MM-DD) the patient was born.
+- **DEATHDATE** - The date (YYYY-MM-DD) the patient died.
+- **PREFIX** - Name prefix, such as Mr., Mrs., Dr., etc.
+- **FIRST** - First name of the patient.
+- **LAST** - Last or surname of the patient.
+- **SUFFIX** - Name suffix, such as PhD, MD, JD, etc.
+- **MAIDEN** - Maiden name of the patient.
+- **MARITAL** - Patient's Marital Status; M is married, S is single.
+- **RACE** - Description of the patient's primary race.
+- **ETHNICITY** - Description of the patient's primary ethnicity.
+- **GENDER** - Patient sexual orientation; Male, Female, Unknown.
+- **BIRTHPLACE** - Name of the town where the patient was born.
+- **ADDRESS** - Patient's street address.
+- **CITY** - Patient's address city.
+- **STATE** - Patient's address state.
+- **COUNTY** - Patient's address county.
+- **ZIP** - Patient's zip code.
+- **LAT** - Latitude of Patient's address.
+- **LON** - Longitude of Patient's address.
+
+2. Encounters table containing 27,891 rows and 14 columns:
+- **Id** - Unique Identifier of the encounter.
+- **START** - The date and time the encounter started
+- **STOP** - The date and time the encounter concluded
+- **PATIENT** - Foreign key to the Patient.
+- **ORGANIZATION** - Foreign key to the Organization.
+- **PAYER** - Foreign key to the Payer.
+- **ENCOUNTERCLASS** - The class of the encounter, such as ambulatory, emergency, inpatient, wellness, or urgentcare
+- **CODE** - Encounter code from SNOMED-CT
+- **DESCRIPTION** - Description of the type of encounter.
+- **BASE_ENCOUNTER_COST** - The base cost of the encounter, not including any line item costs related to medications, immunizations, procedures, or other services.
+- **TOTAL_CLAIM_COST** - The total cost of the encounter, including all line items.
+- **PAYER_COVERAGE** - The amount of cost covered by the Payer.
+- **REASONCODE** - Diagnosis code from SNOMED-CT.
+- **REASONDESCRIPTION** - Description of the reason code.
+  
+3. Procedures table containing 47,701 rows and 9 columns:
+- **START** - The date and time the procedure was performed.
+- **STOP** - The date and time the procedure was completed, if applicable.
+- **PATIENT** - Foreign key to the Patient.
+- **ENCOUNTER** - Foreign key to the Encounter where the procedure was performed.
+- **CODE** - Procedure code from SNOMED-CT
+- **DESCRIPTION** - Description of the procedure.
+- **BASE_COST** - The line item cost of the procedure.
+- **REASONCODE** - Diagnosis code from SNOMED-CT specifying why this procedure was performed.
+- **REASONDESCRIPTION** - Description of the reason code.
+
+
+4. Payers table containing 10 rows and 7 columns:
+- **Id** - Unique Identifier of the payer.
+- **NAME** - Name of the Payer.
+- **ADDRESS** - Payer's street address.
+- **CITY** - Street address city.
+- **STATE_HEADQUARTERED** - Street address state abbreviation.
+- **ZIP** - Street address zip or postal code.
+- **PHONE** - Payer's phone number.
+
+Data Types:
+
+* Text (Names, Categories)
+* Numeric (Counts, Costs, Percentages)
+* Date (Admission Dates, Report Date)
+* Categorical (Gender, Ethnicity, Encounter Type, Insurance)
+
+
+
 
 
