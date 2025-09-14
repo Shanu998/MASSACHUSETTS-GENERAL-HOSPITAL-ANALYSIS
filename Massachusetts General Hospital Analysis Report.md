@@ -5,15 +5,16 @@
 1. [Introduction](#introduction)
 2. [Project Description](#project-description)
 3. [Project Aim](#project-aim)
-4. [About the Dataset](#about-the-dataset)
-5. [Importing the Dataset to SQL](#importing-the-dataset-to-SQL)
-6. [Preparation of the Dataset: Cleaning and Transforming](#preparation-of-the-dataset-cleaning-and-transforming)
-7. [Data Modeling in Excel](#data-modeling-in-excel)
-8. [Data Analysis in Excel](#data-analysis-in-excel)
-9. [Data Visualization in Excel](#data-visualization-in-excel)
-10. [Insights from the Data Analysis](#insights-from-the-data-analysis)
-11. [Recommendations from the Data Analysis](#recommendations-from-the-data-analysis)
-12. [Conclusion](#conclusion)
+4. [Tools & Technologies](#-tools--technologies)
+5. [About the Dataset](#about-the-dataset)
+6. [Importing the Dataset to SQL](#importing-the-dataset-to-SQL)
+7. [Preparation of the Dataset: Cleaning and Transforming](#preparation-of-the-dataset-cleaning-and-transforming)
+8. [Data Modeling in Excel](#data-modeling-in-excel)
+9. [Data Analysis in Excel](#data-analysis-in-excel)
+10. [Data Visualization in Excel](#data-visualization-in-excel)
+11. [Insights from the Data Analysis](#insights-from-the-data-analysis)
+12. [Recommendations from the Data Analysis](#recommendations-from-the-data-analysis)
+13. [Conclusion](#conclusion)
 
 --
 
@@ -46,6 +47,10 @@ The main objective of this project is to analyze Massachusetts Hospital's perfor
 ✅ Which procedures are most frequent and expensive?
 
 ✅ What role do insurers play in covering the cost of care?
+
+## **Tools & Technologies**
+- **SQL (Microsift SQL Server)** → data cleaning & transformation  
+- **Power BI** → dashboarding & storytelling    
 
 ## **About the Dataset**
 
