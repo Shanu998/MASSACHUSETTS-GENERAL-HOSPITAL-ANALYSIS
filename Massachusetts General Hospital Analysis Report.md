@@ -7,14 +7,15 @@
 3. [Project Aim](#project-aim)
 4. [Tools & Technologies](#-tools--technologies)
 5. [About the Dataset](#about-the-dataset)
-6. [Importing the Dataset to SQL](#importing-the-dataset-to-SQL)
-7. [Preparation of the Dataset: Cleaning and Transforming](#preparation-of-the-dataset-cleaning-and-transforming)
-8. [Data Modeling in Excel](#data-modeling-in-excel)
-9. [Data Analysis in Excel](#data-analysis-in-excel)
-10. [Data Visualization in Excel](#data-visualization-in-excel)
-11. [Insights from the Data Analysis](#insights-from-the-data-analysis)
-12. [Recommendations from the Data Analysis](#recommendations-from-the-data-analysis)
-13. [Conclusion](#conclusion)
+6. [Project breakdown](#project-breakdown)
+7. [Importing the Dataset to SQL](#importing-the-dataset-to-SQL)
+8. [Preparation of the Dataset: Cleaning and Transforming](#preparation-of-the-dataset-cleaning-and-transforming)
+9. [Data Modeling in Excel](#data-modeling-in-excel)
+10. [Data Analysis in Excel](#data-analysis-in-excel)
+11. [Data Visualization in Excel](#data-visualization-in-excel)
+12. [Insights from the Data Analysis](#insights-from-the-data-analysis)
+13. [Recommendations from the Data Analysis](#recommendations-from-the-data-analysis)
+14. [Conclusion](#conclusion)
 
 ---
 
@@ -122,11 +123,44 @@ Data Types:
 * Date (Admission Dates, Report Date)
 * Categorical (Gender, Ethnicity, Encounter Type, Insurance)
 
+## **Project breakdown** 
+1. **Understanding the Project brief**  
+   - Define Problem Statement
+   - Identify key stakeholders  
+   - Drafted healthcare business questions
+  
+2. **Data Cleaning Process**
+   - Imported raw CSVs into SQL Server for data cleaning, standardization and validation
+
+3. **Data Analysis**  
+   - SQL queries were used in answering the business questions 
+
+4. **Data Visualization**  
+   - Built Power BI dashboards  
+   - Designed KPIs with conditional formatting  
+   - Data storytelling structure
+  
+5. **Imsights and Recommendations**
+   - Valid insights and actionable recommendation from the visualisation process
+
 ## **Importing the Dataset to SQL**
 
-The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate copy was created commencement of data cleaning process.
+The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate copy was created before commencement of data cleaning process.
 
 ## **Preparation of the Dataset: Cleaning and Transforming**
+
+- **Creation of Database: Massachusettts_GH**
+- **Assigned Correct Data Types**
+- **Creation of Backup files**
+- **Renamed column headers to enhance readability and understanding**
+- **Identification of Null values**
+- **Identified and Removed Duplicates**   
+- **Replaced Null values with Unknown and 0 appropriately**  
+- **Creation of a new column within the patient table 'is_deceased' to flag either patient is alive or dead using 1 or 0** 
+- **Creation of a new column 'Fullname' - Concenate First and Last name to Fullname**
+- **Standardized Gender, Marital status and encounter_class columns**
+- **Standardized Name column by removing the numerical values embedded in the text**
+
 
 
 
