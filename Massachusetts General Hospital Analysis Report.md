@@ -149,6 +149,8 @@ The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate co
 
 ## **Preparation of the Dataset: Cleaning and Transforming**
 - [Data Cleaning]([Data cleaning file.sql](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS_GH.sql))
+
+Major cleaning and transformation process:
 - **Creation of Database: Massachusettts_GH**
 - **Assigned Correct Data Types**
 - **Creation of Backup files**
@@ -171,11 +173,9 @@ The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate co
 - **One to many relationship was created between the encounters and payers table: Payer_ID**
 
 ## **Data Analysis in SQL**
-
-Key performance indicators (KPIs) analyzed:
+- [Data Analysis]([Data analysis file.sql](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETS%20ANALYTICS.sql))
 
 Key metrics analyzed across dashboards:
-
 - **Total patients**
 - **Total encounters**
 - **Total bills**
