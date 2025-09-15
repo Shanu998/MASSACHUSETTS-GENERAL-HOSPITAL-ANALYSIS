@@ -196,25 +196,25 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 
 ### **Overview Dashboard**
 - **KPI Cards**: Total patient, Total encounter, Total bill, Total insurance company, 30 days Readmission rates.
-- **Stacked Bar Chart**: What procedure(s) drives the highest cost.
-- **Line Chart**: Patients monthly inflow.
-- **Pie Chart**: Distibution of Encounter class.
-- **Stacked Column Chart**: Distibution of Insurers.
+- **Stacked Bar Chart**: Which procedures contribute most to total costs?
+- **Line Chart**: Monthly trend of patients inflow?
+- **Pie Chart**: Distribution of encounters by type (Inpatient, Outpatient, Emergency, etc.)?
+- **Stacked Column Chart**: Which insurance companies cover the largest share of claims?
 - **Slicer**: Year filter for dynamic analysis.
 
 ### **Patient Dashboard**
 - **KPI Cards**: Total patient, Deceased patients, Average patient age, Insurance Covered, Out of patient pocket.
-- **Pie Chart**: Gender Distribution.
-- **Funnel Chart**: Patient distribution by Marital status.
-- **Clustered Bar Chart**: Patient distribution by Age group.
-- **Clustered Column Chart**: Patient distribution by Ethnicity and Race.
+- **Pie Chart**: What is the gender distribution of patients?
+- **Funnel Chart**: What are the dominant marital status groups?
+- **Clustered Bar Chart**: How does age group distribution look?
+- **Clustered Column Chart**: How are patients distributed by ethnicity and race?
 
 ### **Encoounters Dashboard**
 - **KPI Cards**: Total encounter, Total bill, Admitted encouters, Average minute spent per patient.
-- **Line Chart**: Patient monthly encounter.
-- **Stacked Bar Chart**: Top Patient by encounter.
-- **Clustered Bar Chart**: Average length of stay by encounter.
-- **Clustered Column Chart**: Encounter class distribution breakdown.
+- **Line Chart**: What are the trends in monthly encounters?
+- **Stacked Bar Chart**: Who are the top 10 patients by encounter frequency?
+- **Clustered Bar Chart**: What is the average length of stay by diagnosis?
+- **Clustered Column Chart**: What is the admission status breakdown (Inpatient, Outpatient, etc.)?
 - **Slicer**: Year filter for dynamic analysis.
   
 ### **Procedures Dashboard**
@@ -233,11 +233,11 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 - **Pie Chart**: What is the distribution of encounters by insurance companies?
 - **Slicer**: Month filter for dynamic analysis.
 - ### **View Dashboards**
-- [Overview Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-1.png))
-- [Patients Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-2.png))
-- [Encounters Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-3.png))
-- [Procedures Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-4.png))
-- [Payers Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-5.png))
+- [Overview Dashboard]([Overview visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-1.png))
+- [Patients Dashboard]([Patients visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-2.png))
+- [Encounters Dashboard]([Encounters visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-3.png))
+- [Procedures Dashboard]([Procedures visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-4.png))
+- [Payers Dashboard]([Payers visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-5.png))
   
 ## **Insights from the Data Analysis**
 
