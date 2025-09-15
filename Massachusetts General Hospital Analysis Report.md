@@ -219,18 +219,18 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
   
 ### **Procedures Dashboard**
 - **KPI Cards**: Total procedures, Total procedures bill, Average procedure bill, Average minute spent per procedure.
-- **Line Chart**: Monthly procedure trends.
-- **Line Chart**: Monthly procedure trends by cost.
-- **Clustered Bar Chart**: Major hospital procedures.
-- **Pie Chart**: Common Procedure reasons.
+- **Line Chart**: How do procedure costs trend by month?
+- **Line Chart**: Which procedures contribute most to costs over time?
+- **Clustered Bar Chart**: What are the most frequent procedures?
+- **Pie Chart**: What are the most common procedure reasons?
 - **Slicer**: Year filter for dynamic analysis.
   
 ### **Payers Dashboard**
 - **KPI Cards**: Total insurance company, Total bills, Insurance covered, Out of pocket patients. 
-- **Line Chart**: Yearly Insurance payment trends.
-- **Stacked Bar Chart**: Top paying insurance company.
-- **Stacked Column Chart**: Monthly Insurance coverage.
-- **Pie Chart**: Encounters by insurance provider.
+- **Line Chart**: How have yearly insurance payments trended?
+- **Stacked Bar Chart**: Which insurers cover the highest claims?
+- **Stacked Column Chart**: How much coverage do different insurance firms provide monthly?
+- **Pie Chart**: What is the distribution of encounters by insurance companies?
 - **Slicer**: Month filter for dynamic analysis.
 - ### **View Dashboards**
 - [Overview Dashboard]([Unicorn Overview dashboard.png](https://github.com/Kaosarat10/Unicorn-Companies-Analysis/blob/main/Unicorn%20Overview%20dashboard.png))  
@@ -238,24 +238,56 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
   
 ## **Insights from the Data Analysis**
 
-- **Industries with the Highest ROI**: Fintech, Mobile & Telecommunications, and Hardware lead in ROI performance.
-- **Industries with the Most Investment**: Fintech, Internet & Software Services, E-Commerce, and AI attract the highest funding.
-- **Top Investors**: Sequoia Capital China, Accel, Andreessen Horowitz, and Insight Partners are the most active investors.
-- **Top Unicorn Companies by ROI**: Zwift, Dunamu, Pilot.com, Bought By Many, Domestika, and DJI Innovations.
-- **Countries Producing the Most Unicorns**: United States (554), China (169), and India (65).
-- **Top Cities for Unicorns**: London, Shanghai, Beijing, New York, and San Francisco.
-- **Average Years to Unicorn**: The average time it takes for a company to reach unicorn status is 7.5 years.
+- **Unusually High Readmission Rate*: 7,905.54% – Likely a reporting or formula error, or systemic issue in patient discharge/follow-up.
+- **Out-of-Pocket Dominance**: 622 patients (\~64%) pay out-of-pocket, indicating either limited insurance access or coverage denial.
+- **Older Patient Base**: Average age is 73; majority are 76+, requiring complex and long-term care.
+- **Top Cost Drivers**: Electrical cardioversion, chemotherapy, colonoscopy—indicating high-acuity treatments.
+- **Insurance Coverage Gap**: 31.58% of patients have no insurance.
+- **Peak Service Months**: January, February, November show the highest encounter volumes.
+- **Top Procedures**: Oxygen administration, intubation, imaging tests—emergency & critical care dominate.
+- **Frequent Flyer**: Small number of patients with repeated visits may represent chronic condition burdens or poor outpatient follow-up.
+
 
 ## **Recommendations from the Data Analysis**
 
-- **For Investors**: Focus on fintech, telecommunications, and AI startups, as they show high ROI potential.
-- **For Startups**: Companies should aim for strategic funding rounds, as unicorns typically achieve this status in 7.5 years.
-- **For Policymakers**: Supporting startups in the United States, China, and India could further boost unicorn formation.
-- **For Entrepreneurs**: Consider launching in cities like London, Shanghai, and San Francisco, which have thriving startup ecosystems.
+### 👨‍⚕ Medical Directors
+
+* Audit the readmission metric immediately for accuracy.
+* Implement care coordination and discharge planning for high-risk patients to reduce repeat visits.
+
+### 🧑‍⚕ Clinical Staff (Doctors, Nurses, Lab Technicians, Pharmacists)
+
+* Prioritize elderly care plans and age-specific medication management.
+* Focus on early intervention for atrial fibrillation, cancer, and chronic respiratory illnesses.
+
+### 🏥 Department Heads
+
+* Adjust staffing in January, February, and November to meet peak encounter demand.
+* Improve coordination for frequently performed procedures through workflow optimization.
+
+### 📊 Healthcare Analysts
+
+* Perform root cause analysis for high-cost procedures.
+* Analyze payer performance and claim denials to identify reimbursement inefficiencies.
+
+### 🧑‍💼 Administrative Officers
+
+* Launch patient financial counseling to support uninsured and out-of-pocket patients.
+* Engage with insurance companies to renegotiate terms for top-billed procedures.
+
+### 🤝 Insurance Partners
+
+* Promote insurance literacy and simplify enrollment to reduce the uninsured population.
+* Explore value-based care agreements to align billing with outcomes.
+
+### 🧪 Public Health Workers
+
+* Initiate outreach programs for minorities with limited healthcare access.
+* Promote preventive screening for high-risk elderly patients.
 
 ## **Conclusion**
 
-This project successfully analyzed unicorn companies, highlighting investment trends, high-performing industries, and key investor activities. The insights derived can help stakeholders make informed decisions in the startup ecosystem.
+This project demonstrates the power of hospital analytics in uncovering patterns that affect patient care, hospital revenue, and operational performance. With targeted interventions, Massachusetts Hospital can improve patient outcomes, optimize financial performance, and reduce administrative inefficiencies.
 
 
 
