@@ -10,8 +10,8 @@
 6. [Project breakdown](#project-breakdown)
 7. [Importing the Dataset to SQL](#importing-the-dataset-to-SQL)
 8. [Preparation of the Dataset: Cleaning and Transforming](#preparation-of-the-dataset-cleaning-and-transforming)
-9. [Data Modeling in Excel](#data-modeling-in-excel)
-10. [Data Analysis in Excel](#data-analysis-in-excel)
+9. [Data Modeling in Power BI](#data-modeling-in-powerbi)
+10. [Data Analysis in SQL](#data-analysis-in-SQL)
 11. [Data Visualization in Excel](#data-visualization-in-excel)
 12. [Insights from the Data Analysis](#insights-from-the-data-analysis)
 13. [Recommendations from the Data Analysis](#recommendations-from-the-data-analysis)
@@ -161,7 +161,7 @@ The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate co
 - **Standardized Gender, Marital status and encounter_class columns**
 - **Standardized Name column by removing the numerical values embedded in the text**
 
-## **Data Modeling in Excel**
+## **Data Modeling in Power BI**
 - [massachusetts data model.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/massachusetts%20data%20model.png)
 - **One to many relationship was created between the patients and procedures table: Patient_ID**
 - **One to many relationship was created between the patients and calendar table: Date**
@@ -170,7 +170,7 @@ The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate co
 - **One to many relationship was created between the patients and encounters table: Patient_ID**
 - **One to many relationship was created between the encounters and payers table: Payer_ID**
 
-## **Data Analysis in Excel**
+## **Data Analysis in SQL**
 
 Key performance indicators (KPIs) analyzed:
 
@@ -179,25 +179,59 @@ Key performance indicators (KPIs) analyzed:
 - **Total Number of Unicorn Companies**
 - **Total Number of Investors**
 
-## **Data Visualization in Excel**
-Two dashboards were created: an **Overview Dashboard** and an **Insights Dashboard**.
+Key metrics analyzed across dashboards:
+
+- **Total patients**
+- **Total encounters**
+- **Total bills**
+- **Total Insurance companies**
+- **Readmission rates**
+- **Patient demographics (age, gender, marital status, ethnicity)**
+- **Insurance vs. out-of-pocket payments**
+- **Average billing and procedure time**
+- **Admiited patients**
+
+## **Data Visualization in Power BI**
+Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard** , **Encoounters Dashboard** , **Procedures Dashboard** and **Payers Dashboard**.
 
 ### **Overview Dashboard**
-- **KPI Cards**: Avg ROI, Avg Years to Unicorn, Total Unicorn Companies, Total Investors.
-- **Bar Chart**: Top 10 Investors in Unicorn Companies.
-- **Line Chart**: Time Taken to Reach Unicorn Status.
-- **Lollipop Chart**: Top 5 Unicorn Companies by ROI.
-- **Map**: Countries Producing the Most Unicorns.
+- **KPI Cards**: Total patient, Total encounter, Total bill, Total insurance company, 30 days Readmission rates.
+- **Stacked Bar Chart**: What procedure(s) drives the highest cost.
+- **Line Chart**: Patients monthly inflow.
+- **Pie Chart**: Distibution of Encounter class.
+- **Stacked Column Chart**: Distibution of Insurers.
+- **Slicer**: Year filter for dynamic analysis.
 
-### **Insights Dashboard**
-- **Bar Chart**: Top Industries by ROI.
-- **Bar Chart**: Top Cities by ROI.
-- **Bar Chart**: Top 5 Investors.
-- **Bar Chart**: Average Years to Unicorn by Industry.
-- **Bar Chart**: Top 5 Industries by Investment.
-- **Bar Chart**: Top Cities with the Most Unicorns.
-- **Slicer**: Continent filter for dynamic analysis.
+### **Patient Dashboard**
+- **KPI Cards**: Total patient, Deceased patients, Average patient age, Insurance Covered, Out of patient pocket.
+- **Pie Chart**: Gender Distribution.
+- **Funnel Chart**: Patient distribution by Marital status.
+- **Clustered Bar Chart**: Patient distribution by Age group.
+- **Clustered Column Chart**: Patient distribution by Ethnicity and Race.
 
+### **Encoounters Dashboard**
+- **KPI Cards**: Total encounter, Total bill, Admitted encouters, Average minute spent per patient.
+- **Line Chart**: Patient monthly encounter.
+- **Stacked Bar Chart**: Top Patient by encounter.
+- **Clustered Bar Chart**: Average length of stay by encounter.
+- **Clustered Column Chart**: Encounter class distribution breakdown.
+- **Slicer**: Year filter for dynamic analysis.
+  
+### **Procedures Dashboard**
+- **KPI Cards**: Total procedures, Total procedures bill, Average procedure bill, Average minute spent per procedure.
+- **Line Chart**: Monthly procedure trends.
+- **Line Chart**: Monthly procedure trends by cost.
+- **Clustered Bar Chart**: Major hospital procedures.
+- **Pie Chart**: Common Procedure reasons.
+- **Slicer**: Year filter for dynamic analysis.
+  
+### **Payers Dashboard**
+- **KPI Cards**: Total insurance company, Total bills, Insurance covered, Out of pocket patients. 
+- **Line Chart**: Yearly Insurance payment trends.
+- **Stacked Bar Chart**: Top paying insurance company.
+- **Stacked Column Chart**: Monthly Insurance coverage.
+- **Pie Chart**: Encounters by insurance provider.
+- **Slicer**: Month filter for dynamic analysis.
 - ### **View Dashboards**
 - [Overview Dashboard]([Unicorn Overview dashboard.png](https://github.com/Kaosarat10/Unicorn-Companies-Analysis/blob/main/Unicorn%20Overview%20dashboard.png))  
 - [Insights Dashboard]([Unicorn Insights dashboard.png](https://github.com/Kaosarat10/Unicorn-Companies-Analysis/blob/main/Unicorn%20Insights%20dahboard.png))
