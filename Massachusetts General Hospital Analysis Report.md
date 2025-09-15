@@ -148,6 +148,7 @@ Data Types:
 The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate copy was created before commencement of data cleaning process.
 
 ## **Preparation of the Dataset: Cleaning and Transforming**
+- [Data Cleaning]([Data cleaning file.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/massachusetts%20data%20model.png))
 
 - **Creation of Database: Massachusettts_GH**
 - **Assigned Correct Data Types**
@@ -173,11 +174,6 @@ The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate co
 ## **Data Analysis in SQL**
 
 Key performance indicators (KPIs) analyzed:
-
-- **Average Return on Investment (ROI)**
-- **Average Years to Unicorn**
-- **Total Number of Unicorn Companies**
-- **Total Number of Investors**
 
 Key metrics analyzed across dashboards:
 
@@ -209,7 +205,7 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 - **Clustered Bar Chart**: How does age group distribution look?
 - **Clustered Column Chart**: How are patients distributed by ethnicity and race?
 
-### **Encoounters Dashboard**
+### **Encounters Dashboard**
 - **KPI Cards**: Total encounter, Total bill, Admitted encouters, Average minute spent per patient.
 - **Line Chart**: What are the trends in monthly encounters?
 - **Stacked Bar Chart**: Who are the top 10 patients by encounter frequency?
