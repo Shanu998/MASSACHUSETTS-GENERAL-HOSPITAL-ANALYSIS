@@ -236,7 +236,7 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
   
 ## **Insights from the Data Analysis**
 
-- **Unusually High Readmission Rate*: 7,905.54% – Likely a reporting or formula error, or systemic issue in patient discharge/follow-up.
+- **Unusually High Readmission Rate**: 90.24 – Likely a reporting or formula error, or systemic issue in patient discharge/follow-up.
 - **Out-of-Pocket Dominance**: 622 patients (\~64%) pay out-of-pocket, indicating either limited insurance access or coverage denial.
 - **Older Patient Base**: Average age is 73; majority are 76+, requiring complex and long-term care.
 - **Top Cost Drivers**: Electrical cardioversion, chemotherapy, colonoscopy—indicating high-acuity treatments.
