@@ -19,11 +19,11 @@
 
 ---
 
-## **Introduction**
+## 🔍 **Introduction**
 
 This project focuses on analyzing operational, clinical, and financial data from Massachusetts Hospital using Structured Query Language (SQL). The objective is to discover insights into patient demographics, hospital encounters, insurance payments, procedure costs, and overall performance to drive data-driven decisions across departments and stakeholders.
 
-## **Project Description**
+## 🏥 **Project Description**
 
 Massachusetts Hospital operates in a dynamic healthcare environment where patient care, billing, insurance, and clinical performance intersect. This project uses a dataset exported from a hospital management system to visualize and analyze patient inflows, encounter types, procedure volumes, costs, and payer distributions.
 The analysis covers five core areas:
@@ -49,11 +49,11 @@ The main objective of this project is to analyze Massachusetts Hospital's perfor
 
 ✅ What role do insurers play in covering the cost of care?
 
-## **Tools & Technologies**
+## 🛠 **Tools & Technologies**
 - **SQL (Microsift SQL Server)** → data cleaning & transformation  
 - **Power BI** → dashboarding & storytelling    
 
-## **About the Dataset**
+## 🗂 **About the Dataset**
 
 The dataset used for this project was extracted from the hospital’s information system and structured in an Excel-based reporting. It includes:
 
@@ -123,7 +123,7 @@ Data Types:
 * Date (Admission Dates, Report Date)
 * Categorical (Gender, Ethnicity, Encounter Type, Insurance)
 
-## **Project breakdown** 
+## 📊 **Project breakdown** 
 1. **Understanding the Project brief**  
    - Define Problem Statement
    - Identify key stakeholders  
@@ -143,11 +143,11 @@ Data Types:
 5. **Imsights and Recommendations**
    - Valid insights and actionable recommendation from the visualisation process
 
-## **Importing the Dataset to SQL**
+## 📥 **Importing the Dataset to SQL**
 
 The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate copy was created before commencement of data cleaning process.
 
-## **Preparation of the Dataset: Cleaning and Transforming**
+## 🧹 **Preparation of the Dataset: Cleaning and Transforming**
 - [Data Cleaning]([Data cleaning file.sql](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS_GH.sql))
 
 Major cleaning and transformation process:
@@ -163,7 +163,7 @@ Major cleaning and transformation process:
 - **Standardized Gender, Marital status and encounter_class columns**
 - **Standardized Name column by removing the numerical values embedded in the text**
 
-## **Data Modeling in Power BI**
+## 🔗  **Data Modeling in Power BI**
 - [Data Modeling]([Massachusetts data model.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/massachusetts%20data%20model.png))
 - **One to many relationship was created between the patients and procedures table: Patient_ID**
 - **One to many relationship was created between the patients and calendar table: Date**
@@ -172,7 +172,7 @@ Major cleaning and transformation process:
 - **One to many relationship was created between the patients and encounters table: Patient_ID**
 - **One to many relationship was created between the encounters and payers table: Payer_ID**
 
-## **Data Analysis in SQL**
+## 📈 **Data Analysis in SQL**
 - [Data Analysis]([Data analysis file.sql](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETS%20ANALYTICS.sql))
 
 Key metrics analyzed across dashboards:
@@ -186,10 +186,10 @@ Key metrics analyzed across dashboards:
 - **Average billing and procedure time**
 - **Admiited patients**
 
-## **Data Visualization in Power BI**
+## 📊 **Data Visualization in Power BI**
 Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard** , **Encoounters Dashboard** , **Procedures Dashboard** and **Payers Dashboard**.
 
-### **Overview Dashboard**
+### 📌 **Overview Dashboard**
 - **KPI Cards**: Total patient, Total encounter, Total bill, Total insurance company, 30 days Readmission rates.
 - **Stacked Bar Chart**: Which procedures contribute most to total costs?
 - **Line Chart**: Monthly trend of patients inflow?
@@ -197,14 +197,14 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 - **Stacked Column Chart**: Which insurance companies cover the largest share of claims?
 - **Slicer**: Year filter for dynamic analysis.
 
-### **Patient Dashboard**
+### 📌 **Patient Dashboard**
 - **KPI Cards**: Total patient, Deceased patients, Average patient age, Insurance Covered, Out of patient pocket.
 - **Pie Chart**: What is the gender distribution of patients?
 - **Funnel Chart**: What are the dominant marital status groups?
 - **Clustered Bar Chart**: How does age group distribution look?
 - **Clustered Column Chart**: How are patients distributed by ethnicity and race?
 
-### **Encounters Dashboard**
+### 📌 **Encounters Dashboard**
 - **KPI Cards**: Total encounter, Total bill, Admitted encouters, Average minute spent per patient.
 - **Line Chart**: What are the trends in monthly encounters?
 - **Stacked Bar Chart**: Who are the top 10 patients by encounter frequency?
@@ -212,7 +212,7 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 - **Clustered Column Chart**: What is the admission status breakdown (Inpatient, Outpatient, etc.)?
 - **Slicer**: Year filter for dynamic analysis.
   
-### **Procedures Dashboard**
+### 📌 **Procedures Dashboard**
 - **KPI Cards**: Total procedures, Total procedures bill, Average procedure bill, Average minute spent per procedure.
 - **Line Chart**: How do procedure costs trend by month?
 - **Line Chart**: Which procedures contribute most to costs over time?
@@ -220,7 +220,7 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 - **Pie Chart**: What are the most common procedure reasons?
 - **Slicer**: Year filter for dynamic analysis.
   
-### **Payers Dashboard**
+### 📌 **Payers Dashboard**
 - **KPI Cards**: Total insurance company, Total bills, Insurance covered, Out of pocket patients. 
 - **Line Chart**: How have yearly insurance payments trended?
 - **Stacked Bar Chart**: Which insurers cover the highest claims?
@@ -234,7 +234,7 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 - [Procedures Dashboard]([Procedures visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-4.png))
 - [Payers Dashboard]([Payers visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-5.png))
   
-## **Insights from the Data Analysis**
+## 💡**Insights from the Data Analysis**
 
 - **Unusually High Readmission Rate**: 90.24 – Likely a reporting or formula error, or systemic issue in patient discharge/follow-up.
 - **Out-of-Pocket Dominance**: 622 patients (\~64%) pay out-of-pocket, indicating either limited insurance access or coverage denial.
@@ -246,7 +246,7 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 - **Frequent Flyer**: Small number of patients with repeated visits may represent chronic condition burdens or poor outpatient follow-up.
 
 
-## **Recommendations from the Data Analysis**
+## ✅ **Recommendations from the Data Analysis**
 
 ### 👨‍⚕ Medical Directors
 
