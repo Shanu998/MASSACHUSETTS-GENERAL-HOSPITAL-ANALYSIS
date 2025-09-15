@@ -283,7 +283,7 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 * Initiate outreach programs for minorities with limited healthcare access.
 * Promote preventive screening for high-risk elderly patients.
 
-## **Conclusion**
+## 🧾 **Conclusion**
 
 This project demonstrates the power of hospital analytics in uncovering patterns that affect patient care, hospital revenue, and operational performance. With targeted interventions, Massachusetts Hospital can improve patient outcomes, optimize financial performance, and reduce administrative inefficiencies.
 
