@@ -148,8 +148,7 @@ Data Types:
 The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate copy was created before commencement of data cleaning process.
 
 ## **Preparation of the Dataset: Cleaning and Transforming**
-- [Data Cleaning]([Data cleaning file.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/massachusetts%20data%20model.png))
-
+- [Data Cleaning]([Data cleaning file.sql](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS_GH.sql))
 - **Creation of Database: Massachusettts_GH**
 - **Assigned Correct Data Types**
 - **Creation of Backup files**
