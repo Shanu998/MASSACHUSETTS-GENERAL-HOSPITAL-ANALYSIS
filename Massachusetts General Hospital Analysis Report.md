@@ -233,8 +233,11 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 - **Pie Chart**: What is the distribution of encounters by insurance companies?
 - **Slicer**: Month filter for dynamic analysis.
 - ### **View Dashboards**
-- [Overview Dashboard]([Unicorn Overview dashboard.png](https://github.com/Kaosarat10/Unicorn-Companies-Analysis/blob/main/Unicorn%20Overview%20dashboard.png))  
-- [Insights Dashboard]([Unicorn Insights dashboard.png](https://github.com/Kaosarat10/Unicorn-Companies-Analysis/blob/main/Unicorn%20Insights%20dahboard.png))
+- [Overview Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-1.png)
+- [Patients Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-2.png)
+- [Encounters Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-3.png)
+- [Procedures Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-4.png)
+- [Payers Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-5.png)
   
 ## **Insights from the Data Analysis**
 
