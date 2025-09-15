@@ -162,7 +162,7 @@ The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate co
 - **Standardized Name column by removing the numerical values embedded in the text**
 
 ## **Data Modeling in Power BI**
-- [Data Modeling]([massachusetts data model.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/massachusetts%20data%20model.png))
+- [Data Modeling]([Massachusetts data model.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/massachusetts%20data%20model.png))
 - **One to many relationship was created between the patients and procedures table: Patient_ID**
 - **One to many relationship was created between the patients and calendar table: Date**
 - **One to many relationship was created between the procedures and calendar table: Date**
