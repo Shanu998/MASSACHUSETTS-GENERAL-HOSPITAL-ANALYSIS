@@ -162,7 +162,7 @@ The dataset was imported as a CSV file into Microsoft SQL Server. A duplicate co
 - **Standardized Name column by removing the numerical values embedded in the text**
 
 ## **Data Modeling in Power BI**
-- [massachusetts data model.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/massachusetts%20data%20model.png)
+- [Data Modeling]([massachusetts data model.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/massachusetts%20data%20model.png))
 - **One to many relationship was created between the patients and procedures table: Patient_ID**
 - **One to many relationship was created between the patients and calendar table: Date**
 - **One to many relationship was created between the procedures and calendar table: Date**
@@ -233,11 +233,11 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 - **Pie Chart**: What is the distribution of encounters by insurance companies?
 - **Slicer**: Month filter for dynamic analysis.
 - ### **View Dashboards**
-- [Overview Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-1.png)
-- [Patients Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-2.png)
-- [Encounters Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-3.png)
-- [Procedures Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-4.png)
-- [Payers Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-5.png)
+- [Overview Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-1.png))
+- [Patients Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-2.png))
+- [Encounters Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-3.png))
+- [Procedures Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-4.png))
+- [Payers Dashboard]([Massachusetts visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-5.png))
   
 ## **Insights from the Data Analysis**
 
