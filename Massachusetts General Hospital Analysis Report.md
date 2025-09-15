@@ -12,7 +12,7 @@
 8. [Preparation of the Dataset: Cleaning and Transforming](#preparation-of-the-dataset-cleaning-and-transforming)
 9. [Data Modeling in Power BI](#data-modeling-in-powerbi)
 10. [Data Analysis in SQL](#data-analysis-in-SQL)
-11. [Data Visualization in Excel](#data-visualization-in-excel)
+11. [Data Visualization in Power BI](#data-visualization-in-powerbi)
 12. [Insights from the Data Analysis](#insights-from-the-data-analysis)
 13. [Recommendations from the Data Analysis](#recommendations-from-the-data-analysis)
 14. [Conclusion](#conclusion)
