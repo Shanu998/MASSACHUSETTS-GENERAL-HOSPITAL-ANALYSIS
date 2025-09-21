@@ -229,10 +229,24 @@ Five dashboards were created: an **Overview Dashboard** , **Patients Dashboard**
 - **Slicer**: Month filter for dynamic analysis.
 - ### **View Dashboards**
 - [Overview Dashboard]([Overview visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-1.png))
+
+![Overview Dashboard](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-1.png)
+
 - [Patients Dashboard]([Patients visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-2.png))
+
+![Overview Dashboard](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-2.png)
+
 - [Encounters Dashboard]([Encounters visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-3.png))
+
+![Overview Dashboard](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-3.png)
+
 - [Procedures Dashboard]([Procedures visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-4.png))
+
+![Overview Dashboard](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-4.png)
+
 - [Payers Dashboard]([Payers visualisation.png](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-5.png))
+
+![Overview Dashboard](https://github.com/Shanu998/MASSACHUSETTS-GENERAL-HOSPITAL-ANALYSIS/blob/main/MASSACHUSETTS%20VISUALISATION%20final-5.png)
   
 ## 💡**Insights from the Data Analysis**
 
